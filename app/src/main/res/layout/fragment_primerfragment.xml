@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".primerfragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese Sus Datos"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/numeroPoliza"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:hint="No. Poliza de Seguro"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/nombreCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:hint="Nombre Completo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edad"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:hint="Edad"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/fechaHora"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:hint="Fecha y Hora de Atencion"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:layout_margin="20dp"/>
+</LinearLayout>
